@@ -9,10 +9,11 @@ namespace Exec2_OOP
 {
 	public class checkNumber
 	{
-		private string ans = String.Empty;
+		private string answer;
 		private int i;
-		public string getAnswer()
+		private string getAnswer()
 		{
+			string ans = String.Empty;
 			int seed = Guid.NewGuid().GetHashCode();
 			Random random = new Random(seed);
 			while (ans.Length < 4)
@@ -24,15 +25,18 @@ namespace Exec2_OOP
 				}
 				
 			}
-
 			return ans;
 		}
 
 		public void NewGame()
 		{
+			answer = getAnswer();
+		}
 
+		public string Answer
+		{
+			get { return answer;}
+			//set { answer = getAnswer(); }
 		}
 	}
-
-
 }

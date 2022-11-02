@@ -27,7 +27,8 @@ namespace Exec2_OOP
 			checkNumber cN = new checkNumber();
 			txtHint.Text = String.Empty;
 			txtAnswer.Text = String.Empty;
-			lblanswer.Text = cN.getAnswer();
+			cN.NewGame();
+			lblanswer.Text = cN.Answer;
 		}
 	}
 }
