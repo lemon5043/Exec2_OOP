@@ -38,9 +38,10 @@
 			// 
 			// btnGo
 			// 
-			this.btnGo.Location = new System.Drawing.Point(134, 58);
+			this.btnGo.Location = new System.Drawing.Point(282, 71);
+			this.btnGo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
 			this.btnGo.Name = "btnGo";
-			this.btnGo.Size = new System.Drawing.Size(75, 23);
+			this.btnGo.Size = new System.Drawing.Size(96, 29);
 			this.btnGo.TabIndex = 0;
 			this.btnGo.Text = "Go!";
 			this.btnGo.UseVisualStyleBackColor = true;
@@ -49,24 +50,27 @@
 			// lblIntro
 			// 
 			this.lblIntro.AutoSize = true;
-			this.lblIntro.Location = new System.Drawing.Point(12, 18);
+			this.lblIntro.Location = new System.Drawing.Point(15, 23);
+			this.lblIntro.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
 			this.lblIntro.Name = "lblIntro";
-			this.lblIntro.Size = new System.Drawing.Size(197, 15);
+			this.lblIntro.Size = new System.Drawing.Size(247, 19);
 			this.lblIntro.TabIndex = 1;
 			this.lblIntro.Text = "請猜一個4 位數字，每個數字不重複\r\n";
 			// 
 			// txtAnswer
 			// 
-			this.txtAnswer.Location = new System.Drawing.Point(12, 58);
+			this.txtAnswer.Location = new System.Drawing.Point(15, 73);
+			this.txtAnswer.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
 			this.txtAnswer.Name = "txtAnswer";
-			this.txtAnswer.Size = new System.Drawing.Size(100, 23);
+			this.txtAnswer.Size = new System.Drawing.Size(230, 27);
 			this.txtAnswer.TabIndex = 2;
 			// 
 			// btnNewGame
 			// 
-			this.btnNewGame.Location = new System.Drawing.Point(127, 284);
+			this.btnNewGame.Location = new System.Drawing.Point(273, 358);
+			this.btnNewGame.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
 			this.btnNewGame.Name = "btnNewGame";
-			this.btnNewGame.Size = new System.Drawing.Size(88, 23);
+			this.btnNewGame.Size = new System.Drawing.Size(113, 29);
 			this.btnNewGame.TabIndex = 4;
 			this.btnNewGame.Text = "New game";
 			this.btnNewGame.UseVisualStyleBackColor = true;
@@ -74,32 +78,35 @@
 			// 
 			// txtHint
 			// 
-			this.txtHint.Location = new System.Drawing.Point(12, 131);
+			this.txtHint.Location = new System.Drawing.Point(15, 166);
+			this.txtHint.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
 			this.txtHint.Multiline = true;
 			this.txtHint.Name = "txtHint";
-			this.txtHint.Size = new System.Drawing.Size(100, 176);
+			this.txtHint.Size = new System.Drawing.Size(230, 222);
 			this.txtHint.TabIndex = 5;
 			// 
 			// lblanswer
 			// 
 			this.lblanswer.AutoSize = true;
-			this.lblanswer.Location = new System.Drawing.Point(148, 175);
+			this.lblanswer.Location = new System.Drawing.Point(300, 220);
+			this.lblanswer.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
 			this.lblanswer.Name = "lblanswer";
-			this.lblanswer.Size = new System.Drawing.Size(42, 15);
+			this.lblanswer.Size = new System.Drawing.Size(51, 19);
 			this.lblanswer.TabIndex = 6;
 			this.lblanswer.Text = "label1";
 			// 
 			// Form1
 			// 
-			this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+			this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(237, 344);
+			this.ClientSize = new System.Drawing.Size(401, 436);
 			this.Controls.Add(this.lblanswer);
 			this.Controls.Add(this.txtHint);
 			this.Controls.Add(this.btnNewGame);
 			this.Controls.Add(this.txtAnswer);
 			this.Controls.Add(this.lblIntro);
 			this.Controls.Add(this.btnGo);
+			this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
 			this.Name = "Form1";
 			this.Text = "Form1";
 			this.ResumeLayout(false);
